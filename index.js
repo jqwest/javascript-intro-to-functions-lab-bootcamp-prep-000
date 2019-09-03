@@ -3,7 +3,7 @@ function shout(string) {
 }
 
 function whisper(string) {
-  return 'Hello'.toLowerCase()
+  retrun 'Hello'.toLowerCase()
 }
 
 function logShout(string) {
@@ -11,15 +11,5 @@ function logShout(string) {
 }
 
 function logWhisper(string) {
-  console.log('Hello'.toLowerCase())
+  console.log('Hello'.toLowerCaes())
 }
-
-function sayHiToGrandma(string) {
-  if(string.toLowerCase() === string) {
-    return 'I can\'t hear you!';
-  } else if (string.toUpperCase() === string) {
-    return 'YES INDEED!';
-  }else if (string === 'I love you, Grandma.') {
-    return 'I love you, too.';
-  }
-};
